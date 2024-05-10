@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+}
+
+header{
+    
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h1{
+     display: flex;
+    justify-content: center;
+}
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+section{
+    width: 60%;
+    background-color: aquamarine;
+    padding: 6%;
+}
+
+section p{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+section h4{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+
+.enter-task input{
+    border: none;
+    outline: none;
+    font-weight: 15px;
+    padding: 10px;
+    background-color: rgba(108, 108, 126, 0.616);
+    border-radius: 30px;
+    color:brown;
+}
+
+.enter-task button{ 
+    border: none;
+    outline: none;
+    font-weight: 15px;
+    padding: 10px;
+    background-color: rgba(108, 204, 151, 0.616);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.enter-task button:hover{
+    background-color: rgb(202, 42, 42);
+}
